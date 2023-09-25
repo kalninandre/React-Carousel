@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Raleway:wght@400;500&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--white: #fff;
+	--black: #1f1f1f;
+	--light-gray: #d2d2d2;
+	--dark-gray: #727272;
+
+	--orange: #f16a18;
+	--blue: #3f84e5;
+	--green: #4da82e;
+	--yellow: #e7b10a;
+	--red: #ed474a;
+}
+* {
+	box-sizing: border-box;
+	font-size: 18px;
+
+	font-family: 'Roboto Condensed', sans-serif;
+
+	padding: 0px;
+	margin: 0px;
+}
+
+.minimum-page-height {
+	min-height: calc(100vh - 132px);
+}
