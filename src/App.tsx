@@ -44,7 +44,7 @@ function App() {
 
 			<main className='minimum-page-height w-full'>
 				<div className='flex flex-col items-center'>
-					<Carousel width='600px' height='400px' data={data}></Carousel>
+					<Carousel width='600px' height='400px' data={data} />
 				</div>
 			</main>
 

@@ -45,3 +45,5 @@ These are all the properties you can find in the component. In my point of view,
 You can find some images below:
 
 ![MainImage](./images/MainImage.png)
+
+![MainImage2](./images/MainImage2.png)
